@@ -1,10 +1,10 @@
 ---
 AccessModifierOffset: -1
-ConstructorInitializerIndentWidth: 4
+ConstructorInitializerIndentWidth: 2
 AlignEscapedNewlinesLeft: true
 AlignTrailingComments: false
-AllowAllParametersOfDeclarationOnNextLine: true
-AllowShortIfStatementsOnASingleLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortIfStatementsOnASingleLine: true
 AllowShortLoopsOnASingleLine: false
 AlwaysBreakTemplateDeclarations: true
 AlwaysBreakBeforeMultilineStrings: true
@@ -12,7 +12,7 @@ BreakBeforeBinaryOperators: false
 BreakConstructorInitializersBeforeComma: false
 BinPackParameters: false
 ColumnLimit: 80
-ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ConstructorInitializerAllOnOneLineOrOnePerLine:false
 DerivePointerBinding: true
 ExperimentalAutoDetectBinPacking: true
 IndentCaseLabels: false
@@ -31,11 +31,11 @@ Standard: Cpp11
 IndentWidth: 2
 TabWidth: 8
 UseTab: Never
-BreakBeforeBraces: Attach
-IndentFunctionDeclarationAfterType: false
+BreakBeforeBraces:
+IndentFunctionDeclarationAfterType: true
 SpacesInParentheses: false
-SpaceInEmptyParentheses: false
+SpaceInEmptyParentheses: true
 SpacesInCStyleCastParentheses: false
 SpaceAfterControlStatementKeyword: true
-SpaceBeforeAssignmentOperators: true
+SpaceBeforeAssignmentOperators: false
 ...
